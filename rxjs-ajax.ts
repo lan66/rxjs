@@ -1,11 +1,9 @@
 /**
  * Created by Administrator on 2016/12/16.
  */
-import { User } from './struct/user'
 import { Observable } from 'rxjs';
 import { ajax } from 'rxjs/observable/dom/ajax'
 import 'rxjs/add/operator/map'
-import 'core-js/es6/promise'
 
 // function getX<T>():
 // console.log(ajax.get('./data/rxjs-ajax.json')
